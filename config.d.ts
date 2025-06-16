@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import { PagerDutyAccountConfig, PagerDutyOAuthConfig } from '@pagerduty/backstage-plugin-common';
-
 export interface Config {
   /**
    * Configuration for the PagerDuty plugin
@@ -39,13 +37,44 @@ export interface Config {
     apiToken?: string;
     /**
      * Optional PagerDuty Scoped OAuth Token used in API calls from the backend component.
-     * @deepVisibility secret
+     * @visibility frontend
      */
-    oauth?: PagerDutyOAuthConfig;
+    oauth?: {
+      /** @visibility frontend */
+      clientId: string;
+      /** @visibility secret */
+      clientSecret: string;
+      /** @visibility frontend */
+      region?: string;
+      /** @visibility frontend */
+      subDomain: string;
+    };
     /**
      * Optional PagerDuty multi-account configuration
-     * @deepVisibility secret
+     * @visibility frontend
      */
-    accounts?: PagerDutyAccountConfig[];
+    accounts?: {
+      /** @visibility frontend */
+      id: string;
+      /** @visibility frontend */
+      isDefault?: boolean;
+      /** @visibility frontend */
+      eventsBaseUrl?: string;
+      /** @visibility frontend */
+      apiBaseUrl?: string;
+      /** @visibility secret */
+      apiToken?: string;
+      /** @visibility frontend */
+      oauth?: {
+        /** @visibility frontend */
+        clientId: string;
+        /** @visibility secret */
+        clientSecret: string;
+        /** @visibility frontend */
+        region?: string;
+        /** @visibility frontend */
+        subDomain: string;
+      };
+    }[];
   };
 }
