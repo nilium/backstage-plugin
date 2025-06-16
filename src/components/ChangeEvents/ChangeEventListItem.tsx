@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-// eslint-disable-next-line @backstage/no-undeclared-imports
-import React from 'react';
 import { Link } from '@backstage/core-components';
 import {
   ListItem,

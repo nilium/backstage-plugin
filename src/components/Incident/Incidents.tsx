@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 // eslint-disable-next-line @backstage/no-undeclared-imports
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { List } from '@material-ui/core';
 import { IncidentListItem } from './IncidentListItem';
 import { IncidentsEmptyState } from './IncidentEmptyState';

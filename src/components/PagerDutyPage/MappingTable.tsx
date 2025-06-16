@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { PagerDutyEntityMapping } from "@pagerduty/backstage-plugin-common";
 import {
   MRT_ColumnDef,

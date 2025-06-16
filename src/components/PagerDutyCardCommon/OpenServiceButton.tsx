@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-// eslint-disable-next-line @backstage/no-undeclared-imports
-import React from "react";
 import { makeStyles, IconButton } from "@material-ui/core";
 import { BackstageTheme } from "@backstage/theme";
 

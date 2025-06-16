@@ -15,7 +15,7 @@
  */
 
 // eslint-disable-next-line @backstage/no-undeclared-imports
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { List } from '@material-ui/core';
 import { ChangeEventListItem } from './ChangeEventListItem';
 import { ChangeEventEmptyState } from './ChangeEventEmptyState';

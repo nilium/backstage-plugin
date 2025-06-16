@@ -15,7 +15,7 @@
  */
 
 // eslint-disable-next-line @backstage/no-undeclared-imports
-import React, { useCallback, ReactNode, useState } from 'react';
+import { useCallback, ReactNode, useState } from 'react';
 import { makeStyles, Button } from '@material-ui/core';
 import { BackstageTheme } from '@backstage/theme';
 

@@ -1,4 +1,3 @@
-import React from "react";
 import PDIcon from "../../assets/PD-Icon.svg";
 
 /** @public */

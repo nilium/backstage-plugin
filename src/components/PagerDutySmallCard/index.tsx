@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 // eslint-disable-next-line @backstage/no-undeclared-imports
-import React, { ReactNode, useCallback, useState } from "react";
+import { ReactNode, useCallback, useState } from "react";
 import {
   Accordion,
   AccordionDetails,

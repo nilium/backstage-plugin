@@ -15,7 +15,7 @@
  */
 
 // eslint-disable-next-line @backstage/no-undeclared-imports
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Dialog,
   DialogTitle,

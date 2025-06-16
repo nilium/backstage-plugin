@@ -1,6 +1,5 @@
 import { BackstageTheme } from "@backstage/theme";
 import { Card, Typography, makeStyles } from "@material-ui/core";
-import React from "react";
 import validateColor from "validate-color";
 
 type Props = {

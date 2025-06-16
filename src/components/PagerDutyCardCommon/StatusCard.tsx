@@ -1,5 +1,5 @@
 import { Card, Typography } from "@material-ui/core";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Theme, makeStyles } from "@material-ui/core/styles";
 import { BackstageTheme } from "@backstage/theme";
 import { useApi } from "@backstage/core-plugin-api";

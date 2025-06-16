@@ -13,8 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-// eslint-disable-next-line @backstage/no-undeclared-imports
-import React from "react";
 import { render, waitFor } from "@testing-library/react";
 import { EscalationPolicy } from "./EscalationPolicy";
 import { TestApiRegistry, wrapInTestApp } from "@backstage/test-utils";

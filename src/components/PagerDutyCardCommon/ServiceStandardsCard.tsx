@@ -9,7 +9,6 @@ import {
   makeStyles,
   withStyles,
 } from "@material-ui/core";
-import React from "react";
 import InfoIcon from "@material-ui/icons/Info";
 import { PagerDutyServiceStandard } from "@pagerduty/backstage-plugin-common";
 import CheckCircle from "@material-ui/icons/CheckCircle";
